@@ -1,0 +1,29 @@
+.splide__arrows {
+    position: absolute;
+    bottom: 50px;
+    right: 80px;
+}
+
+#left-arrow {
+    width: 15px;
+    background: none;
+    left: -120px;
+}
+
+#right-arrow {
+    width: 15px;
+    background: none;
+}
+
+li.splide__slide {
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+#loyalty-program-background {
+    width: 100%;
+    height: auto;
+    max-height: 100%;
+    object-fit: cover;
+}

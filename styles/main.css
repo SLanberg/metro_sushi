@@ -1,122 +1,25 @@
 * {
-  margin: 0;
-}
-  
-.container {
-  background-image: url("../static/Texture.png");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  background-position: center;
-  height: 750px;
-  width: 100%;
-  position: absolute;
-}
-.text-container { 
-  position: absolute;
-  bottom: -50px;
-  width: 100%;
+    margin: 0;
 }
 
-.rounded-button {
-  background-color: #cdb72f;
-  color: white;
-  border-radius: 50px; /* makes the button rounded */
-  padding: 10px 20px;
-  border: none;
-  font-family: 'Athelas', serif;
-}
-
-#sushi-pic{
-  width: 760px;
-  height: 100%;
-  margin-bottom: -50px;
-}
-
-#special-mix{
-  /* position: absolute;  */
-  left: 800px; 
-  top: 200px;
-  color: #cdb72f;
-  font-size: 40pt;
-  font-family: 'Athelas', serif;
-}
-
-#under-offer-title{
-  display: flex;
-  justify-content: center;
-  color: #cdb72f;
-  font-size: 19.05pt;
-  font-family: 'Athelas', serif;
-}
-
-#mini-headine-text{
-  position: absolute;
-  font-size: 14pt;
-  right: 345px;
-  top: 375px;
-  font-family: 'Montserrat', serif;
-  color: white;
-}
-#mini-headind-text-2{
-  position: absolute;
-  right: 392px;
-  top: 485px;
-  font-size: 14pt;
-  font-family: 'Montserrat', serif;
-  color: white;
-}
-
-#body-text{
-  position: absolute;
-  right: 175px;
-  top: 400px;
-  font-family: 'Montserrat', serif;
-  font-size: 11pt;
-  color: white;
-}
-
-#body-text-2{
-  position: absolute;
-  right: 175px;
-  top: 510px;
-  font-family: 'Montserrat', serif;
-  font-size: 11pt;
-  color: white;
-}
-
-#makko-roll-pic{
-  position: absolute;
-  width: 76px;
-  height: 74px;
-  right: 500px; 
-  top: 390px;
-}
-
-#sashimi-pic{
-  position: absolute;
-  width: 76px;
-  height: 70px;
-  right: 500px;
-  top: 500px;
-}
-
-#under-text-gold-2{
-  position: absolute; 
-  right: 416px;
-  top: 585px;
-  color: #cdb72f;
-  font-size: 19.05pt;
-  font-family: 'Athelas', serif;
+#sushi-pic {
+    width: 760px;
+    height: 100%;
+    margin-bottom: -50px;
 }
 
 #social-webs {
-  margin-right: 475px;
+    position: absolute;
+    z-index: 9999;
+    bottom: 45px;
+    right: 260px;
+    margin-right: 50px;
 }
 
 #social-webs img {
-  float: right;
-  /* display: inline-block; */
-  margin-right: 20px;
-  height: 15px;
-  -webkit-filter: grayscale(1) invert(1); filter: grayscale(1) invert(1);
+    float: right;
+    margin-right: 20px;
+    height: 15px;
+    -webkit-filter: grayscale(1) invert(1);
+    filter: grayscale(1) invert(1);
 }
