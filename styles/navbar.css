@@ -5,35 +5,40 @@
     height: 65px;
     top: 55px;
 }
-#navbar{
-    padding: 50px;
-    justify-content: space-between;
+
+#navbar {
+    position: absolute;
     display: flex;
-    align-items: center;
+    justify-content: space-between;
+    z-index: 999;
+    width: 90%;
+    padding: 50px;
 }
+
 #nav-items {
     align-items: center;
 }
+
 #nav-items li {
-   margin-left: 30px; 
-   font-family: 'Athelas', serif;
+    margin-left: 30px;
+    font-family: 'Athelas', serif;
 }
+
 nav ul {
-    display: flex;
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    display: flex;
 }
 
 nav li {
     float: left;
 }
+
 nav a {
-    text-decoration: none;
     display: block;
     padding: 10px 20px;
+    text-decoration: none;
     color: white;
     font-size: 16px;
 }
-

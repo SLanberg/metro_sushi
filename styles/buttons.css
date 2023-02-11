@@ -1,0 +1,9 @@
+.rounded-button {
+    cursor: pointer;
+    background-color: #cdb72f;
+    color: white;
+    border-radius: 50px; /* makes the button rounded */
+    padding: 4px 10px;
+    border: none;
+    font-family: 'Athelas', serif;
+}

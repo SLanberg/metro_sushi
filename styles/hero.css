@@ -1,0 +1,100 @@
+#hero-container {
+    background-image: url("../static/Texture.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    height: 750px;
+    width: 100%;
+    position: absolute;
+}
+
+.special-offer-container {
+    float: right;
+    position: absolute;
+    top: 200px;
+    margin-right: 14%;
+    right: 0;
+    text-align: center;
+}
+
+.special-offer {
+    font-weight: bold;
+    color: #cdb72f;
+    font-size: 40pt;
+    font-family: 'Athelas', serif;
+}
+
+.under-special-offer-text {
+    margin-top: 10px;
+    color: #cdb72f;
+    font-size: 20pt;
+    font-family: 'Athelas', serif;
+}
+
+.mini-headline {
+    position: absolute;
+    font-size: 14pt;
+    font-family: 'Montserrat', serif;
+    color: white;
+}
+
+#mini-headline-text-1 {
+    right: 345px;
+    top: 375px;
+}
+
+#mini-headline-text-2 {
+    right: 392px;
+    top: 485px;
+}
+
+/*Fix it*/
+#moto-under-special-offer {
+    position: absolute;
+    right: 320px;
+    top: 545px;
+    color: #cdb72f;
+    font-size: 19.05pt;
+    font-family: 'Athelas', serif;
+}
+
+
+.loyalty-program-container-1 {
+    display: flex;
+    position: absolute;
+    margin-right: 12.5%;
+    right: 0;
+    top: 340px;
+}
+
+.loyalty-program-container-2 {
+    display: flex;
+    position: absolute;
+    margin-right: 12.5%;
+    right: 0;
+    top: 450px;
+}
+
+.loyalty-program-image {
+    width: 75px;
+    margin-right: 20px;
+}
+
+.loyalty-program-prompt-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.loyalty-program-title {
+    font-weight: bold;
+    font-family: 'Montserrat', serif;
+    font-size: 11pt;
+    color: white;
+}
+
+.loyalty-program-text {
+    font-family: 'Montserrat', serif;
+    font-size: 11pt;
+    color: white;
+}

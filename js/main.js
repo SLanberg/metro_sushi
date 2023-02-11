@@ -4,4 +4,8 @@ window.addEventListener('DOMContentLoaded', function() {
       document.documentElement.style.setProperty('--screen-height', height + "px");
     }
     setScreenHeight();
+
+    new Splide(".splide", {
+        pagination: false,
+    }).mount();
   });

@@ -1,75 +1,161 @@
-<!DOCTYPE html>
-
-<html>
-
 <head>
-  <script type="text/javascript" src="styles/main.js"></script>
+    <title>Metro Sushi</title>
 
-  <link href="https://fonts.cdnfonts.com/css/athelas" rel="stylesheet">
-  <link href="https://fonts.cdnfonts.com/css/montserrat" rel="stylesheet">
+    <link href="static/favicon.ico" rel="shortcut icon" type="image/x-icon">
 
-  <link rel="stylesheet" type="text/css" href="styles/navbar.css">
-  <link rel="stylesheet" type="text/css" href="styles/main.css">
+    <link href="https://fonts.cdnfonts.com/css/athelas" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/montserrat" rel="stylesheet">
 
-  <!-- Play with me ٩(◕‿◕)۶ -->
-  <link rel="shortcut icon" type="image/x-icon" href="static/favicon.ico">
+    <link href="styles/navbar.css" rel="stylesheet" type="text/css">
+    <link href="styles/buttons.css" rel="stylesheet" type="text/css">
+    <link href="styles/hero.css" rel="stylesheet" type="text/css">
+    <link href="styles/splide-js-custom.css" rel="stylesheet" type="text/css">
+    <link href="styles/main.css" rel="stylesheet" type="text/css">
+
+    <link href="js/splide-4.1.3/dist/css/splide.min.css" rel="stylesheet">
+
+    <script src="js/main.js" type="text/javascript"></script>
+    <script src="js/splide-4.1.3/dist/js/splide.min.js"></script>
 </head>
-<header>
-  <!-- Play with me o(>ω<)o -->
-  <!-- http://kaomoji.ru/en/ -->
-  <title>Metro (つ✧ω✧)つ Sushi</title>
-</header>
 
-<body style="justify-content: space-between;">
-  <div class="container">
-    
+<body>
+<div id="hero-container">
     <nav id="navbar">
-      <img src="static/logo.png" alt="logo" id="navbar-logo">
-      <ul id="nav-items">
-        <li><a href="#">ABOUT</a></li>
-        <li><a href="#">MENU</a></li>
-        <li><a href="#">BRANCHES</a></li>
-        <li><a href="#">CONTUCT US</a></li>
-        <li><a href="#">FAQ</a></li>
-        <li><a href="#"><button class="rounded-button">ORDER HERE</button></a></li>
-      </ul>
+        <img alt="logo" id="navbar-logo" src="static/logo.png">
+        <ul id="nav-items">
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">MENU</a></li>
+            <li><a href="#">BRANCHES</a></li>
+            <li><a href="#">CONTUCT US</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li>
+                <button class="rounded-button">
+                    <a href="#">
+                        ORDER HERE
+                    </a>
+                </button>
+            </li>
+        </ul>
     </nav>
 
-    <div>
-      <img src="static/Sushi.png" alt="logo" id="sushi-pic">
+    <div aria-label="Splide Basic HTML Example" class="splide" role="group">
+        <div class="splide__track">
+            <ul class="splide__list">
+                <li class="splide__slide">
+                    <div class="content">
+                        <div class="special-offer-container">
+                            <p class="special-offer">- SPECIAL MIX -</p>
+                            <p class="under-special-offer-text">PERFECT FOR SHARING</p>
+                        </div>
 
-      <div style="float: right; margin-right: 20%; position: absolute; top: 200px; right: 0;">
-        <p id="special-mix">- SPECIAL MIX -</p>
-        <p id="under-offer-title">PERFECT FOR SHARING</p>
-      </div>
+                        <div class="loyalty-program-container-1">
+                            <img alt="food-icon" class="loyalty-program-image" src="static/Makko_roll.png">
+                            <div class="loyalty-program-prompt-right">
+                                <p class="loyalty-program-title">MAKKO ROLL</p>
+                                <p class="loyalty-program-text">Lorem ipsum dolor sit amet, consectetur
+                                    <br> adipiscing elit. Integer convallis orci leo,
+                                    <br> sed lobortis urna dapibus a
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="loyalty-program-container-2">
+                            <img alt="food-icon" class="loyalty-program-image" src="static/Sashimi.png">
+                            <div class="loyalty-program-prompt-right">
+                                <p class="loyalty-program-title">MAKKO ROLL</p>
+                                <p class="loyalty-program-text">Lorem ipsum dolor sit amet, consectetur
+                                    <br> adipiscing elit. Integer convallis orci leo,
+                                    <br> sed lobortis urna dapibus a
+                                </p>
+                            </div>
+                        </div>
+                        <p id="moto-under-special-offer">YOU CHOOSE</p>
+                        <img id="loyalty-program-background" src="static/background.png">
+                    </div>
+                </li>
+
+                <li class="splide__slide">
+                    <div class="content">
+                        <div class="special-offer-container">
+                            <p class="special-offer">- SPECIAL MIX -</p>
+                            <p class="under-special-offer-text">PERFECT FOR SHARING</p>
+                        </div>
+
+                        <div class="loyalty-program-container-1">
+                            <img alt="food-icon" class="loyalty-program-image" src="static/Makko_roll.png">
+                            <div class="loyalty-program-prompt-right">
+                                <p class="loyalty-program-title">MAKKO ROLL</p>
+                                <p class="loyalty-program-text">Lorem ipsum dolor sit amet, consectetur
+                                    <br> adipiscing elit. Integer convallis orci leo,
+                                    <br> sed lobortis urna dapibus a
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="loyalty-program-container-2">
+                            <img alt="food-icon" class="loyalty-program-image" src="static/Sashimi.png">
+                            <div class="loyalty-program-prompt-right">
+                                <p class="loyalty-program-title">MAKKO ROLL</p>
+                                <p class="loyalty-program-text">Lorem ipsum dolor sit amet, consectetur
+                                    <br> adipiscing elit. Integer convallis orci leo,
+                                    <br> sed lobortis urna dapibus a
+                                </p>
+                            </div>
+                        </div>
+                        <p id="moto-under-special-offer">YOU CHOOSE</p>
+                        <img id="loyalty-program-background" src="static/background.png">
+                    </div>
+                </li>
+
+                <li class="splide__slide">
+                    <div class="content">
+                        <div class="special-offer-container">
+                            <p class="special-offer">- SPECIAL MIX -</p>
+                            <p class="under-special-offer-text">PERFECT FOR SHARING</p>
+                        </div>
+
+                        <div class="loyalty-program-container-1">
+                            <img alt="food-icon" class="loyalty-program-image" src="static/Makko_roll.png">
+                            <div class="loyalty-program-prompt-right">
+                                <p class="loyalty-program-title">MAKKO ROLL</p>
+                                <p class="loyalty-program-text">Lorem ipsum dolor sit amet, consectetur
+                                    <br> adipiscing elit. Integer convallis orci leo,
+                                    <br> sed lobortis urna dapibus a
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="loyalty-program-container-2">
+                            <img alt="food-icon" class="loyalty-program-image" src="static/Sashimi.png">
+                            <div class="loyalty-program-prompt-right">
+                                <p class="loyalty-program-title">MAKKO ROLL</p>
+                                <p class="loyalty-program-text">Lorem ipsum dolor sit amet, consectetur
+                                    <br> adipiscing elit. Integer convallis orci leo,
+                                    <br> sed lobortis urna dapibus a
+                                </p>
+                            </div>
+                        </div>
+                        <p id="moto-under-special-offer">YOU CHOOSE</p>
+                        <img id="loyalty-program-background" src="static/background.png">
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div id="social-webs">
+            <a href="#"><img alt="twitter-icon" id="twitter" src="static/Twitter.png"></a>
+            <a href="#"><img alt="facebook-icon" id="facebook" src="static/Facebook.png"></a>
+            <a href="#"><img alt="instagram-icon" id="instagram" src="static/Instagram.png"></a>
+        </div>
+
+        <div class="splide__arrows">
+            <button class="splide__arrow splide__arrow--next" id="right-arrow">
+                <img src="static/right-arrow.png">
+            </button>
+            <button class="splide__arrow splide__arrow--prev left-arrow" id="left-arrow">
+                <img src="static/left-arrow.png">
+            </button>
+        </div>
     </div>
-
-    <div>
-      <p id="mini-headine-text">MAKKO ROLL</p>
-      <br>
-      <p id="body-text">Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit. Integer convallis orci leo, <br>
-        sed lobortis urna dapibus a</p>
-      <img src="static/Makko_roll.png" id="makko-roll-pic">
-    </div>
-
-    <p id="mini-headind-text-2">SASHIMI</p>
-    <p id="body-text-2">Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit. Integer convallis orci leo,
-      <br> sed lobortis urna dapibus a
-    </p>
-    <img src="static/Sashimi.png" id="sashimi-pic">
-
-
-    <p id="under-text-gold-2">YOU CHOOSE</p>
-
-    <div id="social-webs">
-      <img src="static/Twitter.png" id="twitter">
-      <img src="static/Facebook.png" id="facebook">
-      <img src="static/Instagram.png" id="instagram">
-    </div>
-
-  </div>
-
-
+</div>
 </body>
-
-</html>
